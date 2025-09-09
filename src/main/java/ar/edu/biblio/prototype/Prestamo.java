@@ -39,4 +39,6 @@ public class Prestamo implements Cloneable {
                 ", fechaFin=" + fechaFin +
                 '}';
     }
+    public void conFechaInicio(LocalDate localDate) { //Es mejor usar un metodo que devuelve una nueva instancia en lugar de un setter, para manejar de forma mas segura los cambios.
+    }
 }
